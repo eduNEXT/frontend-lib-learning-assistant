@@ -1,11 +1,11 @@
 {
-  "name": "@edx/frontend-lib-learning-assistant",
-  "version": "1.0.0-semantically-released",
+  "name": "@edunext/frontend-lib-learning-assistant",
+  "version": "1.14.0-alpha.1",
   "description": "A frontend library for an Open edX learning assistant.",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edx/frontend-lib-learning-assistant.git"
+    "url": "git+https://github.com/edunext/frontend-lib-learning-assistant.git"
   },
   "browserslist": [
     "extends @edx/browserslist-config"
@@ -52,8 +52,8 @@
     "uuid": "9.0.0"
   },
   "peerDependencies": {
-    "@edx/frontend-platform": "^4.3.0 || ^5.0.0",
-    "@edx/paragon": "20.46.0",
+    "@edx/frontend-platform": "^4.3.0 || ^5.0.0 || ^5.5.0-alpha.1",
+    "@edx/paragon": "20.46.0 || ^22.0.0-alpha.1",
     "@reduxjs/toolkit": "1.8.1",
     "react": "16.14.0 || ^17.0.0",
     "react-dom": "16.14.0 || ^17.0.0",
