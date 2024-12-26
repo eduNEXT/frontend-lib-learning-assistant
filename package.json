@@ -1,11 +1,11 @@
 {
-  "name": "@edx/frontend-lib-learning-assistant",
-  "version": "1.0.0-semantically-released",
+  "name": "@edunext/frontend-lib-learning-assistant",
+  "version": "2.13.0-alpha.1",
   "description": "A frontend library for an Open edX learning assistant.",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edx/frontend-lib-learning-assistant.git"
+    "url": "git+https://github.com/edunext/frontend-lib-learning-assistant.git"
   },
   "browserslist": [
     "extends @edx/browserslist-config"
@@ -33,12 +33,12 @@
   },
   "author": "edX",
   "license": "AGPL-3.0",
-  "homepage": "https://github.com/edx/frontend-lib-learning-assistant#readme",
+  "homepage": "https://github.com/edunext/frontend-lib-learning-assistant#readme",
   "publishConfig": {
     "access": "public"
   },
   "bugs": {
-    "url": "https://github.com/edx/frontend-lib-learning-assistant/issues"
+    "url": "https://github.com/edunext/frontend-lib-learning-assistant/issues"
   },
   "dependencies-note": "Most deps are peer deps because they're specified by frontend-app-learning.",
   "dependencies": {
