@@ -21,7 +21,8 @@
     "start": "fedx-scripts webpack-dev-server --progress",
     "test": "fedx-scripts jest --coverage --passWithNoTests",
     "test:ci": "fedx-scripts jest --silent --coverage --passWithNoTests",
-    "test:watch": "fedx-scripts jest --passWithNoTests --watch"
+    "test:watch": "fedx-scripts jest --passWithNoTests --watch",
+    "paragon_variables": "paragon replace-variables -p src -t usage"
   },
   "files": [
     "/dist"
@@ -51,7 +52,7 @@
     "@edx/browserslist-config": "*",
     "@edx/frontend-platform": "^8",
     "@openedx/frontend-build": "^14",
-    "@openedx/paragon": "^22",
+    "@openedx/paragon": "^23",
     "@reduxjs/toolkit": "^1.8",
     "prop-types": "^15",
     "react": "^17",
