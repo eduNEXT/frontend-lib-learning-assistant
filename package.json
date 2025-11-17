@@ -51,7 +51,7 @@
     "@edx/browserslist-config": "*",
     "@edx/frontend-platform": "8.3.11-alpha.1 || ^8",
     "@openedx/frontend-build": "^14",
-    "@openedx/paragon": "^22",
+    "@openedx/paragon": ">= 22.0.0 < 24.0.0",
     "@reduxjs/toolkit": "^1.8",
     "prop-types": "^15",
     "react": "^17 || ^18",
